@@ -25,8 +25,10 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import AppNavigation from './AppNavigation';
-import MainPage from './MainPage';
+import Check from './Check';
+import Companies from './FirebaseRead';
 import Tabs from './Navigation/Tabs';
+import Saran from './Saran/Saran';
 
 const Section = ({children, title}) => {
   const isDarkMode = useColorScheme() === 'dark';
@@ -62,9 +64,10 @@ const App= () => {
   };
 
   return (
-    <NavigationContainer>
-    <AppNavigation/>
-    </NavigationContainer>
+   <Companies/>
+    // <NavigationContainer>
+    // <AppNavigation/>
+    // </NavigationContainer>
     // <SafeAreaView style={backgroundStyle}>
     //   <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
     //   <ScrollView

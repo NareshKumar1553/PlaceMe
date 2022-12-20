@@ -1,5 +1,5 @@
 import React from "react";
-import { View,StyleSheet,Text, ScrollView, TouchableOpacity, ImageBackground } from "react-native";
+import { View,StyleSheet,Text, ScrollView, TouchableOpacity, Image } from "react-native";
 const Product=({ navigation })=>{
     let PCompanies =[];
     let ImageDB = ['https://www.inorgnet.com/wp-content/uploads/2020/12/Infosys-Chennai.jpg.webp',
@@ -17,8 +17,7 @@ const Product=({ navigation })=>{
         PCompanies.push(
             <TouchableOpacity style={styles.card} 
             onPress={()=>navigation.push('ProductCompany')}>
-                <ImageBackground source={{uri:ImageDB[i]}} style={styles.image}/>
-                <Text>Company {i}</Text>
+                <Image resizeMode= 'cover' source={{uri:ImageDB[i]}} style={styles.imageD}/>
                 </TouchableOpacity>
         )
     }
@@ -28,6 +27,11 @@ const Product=({ navigation })=>{
     );
 }
 const styles = StyleSheet.create({
+    imageD:{
+        height:250,
+        width:360,
+        borderRadius:15,
+    },
     container: {
         color:'red',
         flex: 1,
@@ -51,7 +55,7 @@ const styles = StyleSheet.create({
         alignItems:'flex-end',
         justifyContent: 'flex-end',
         flex:1,
-        padding:7,
+        //padding:7,
       }
 });
 export default Product; 

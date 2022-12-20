@@ -3,14 +3,16 @@ import { View,StyleSheet,Text, ImageBackground } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import MainPage from "../MainPage";
 import ProductCompany from "../ProductCompany";
-import Service from "../Service";
+import Product from "../Product";
 const Tab = createBottomTabNavigator();
 const Tabs = () => {
     return (
         <Tab.Navigator
+        
             screenOptions={{
                 tabBarShowLabel: false,
-                tabBarActiveTintColor: 'tomato',
+                headerShown: false,
+                tabBarActiveTintColor: '#ff00b3',
                 tabBarInactiveTintColor: 'gray',
                 tabBarStyle: {
                     backgroundColor: '#f2ccff',
@@ -35,7 +37,7 @@ const Tabs = () => {
                         </View>
                     )
                 }} />
-            <Tab.Screen name="Companies" component={Service}
+            <Tab.Screen name="Companies" component={Product}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <View style={{ alignItems: 'center', justifyContent: 'center' }}>

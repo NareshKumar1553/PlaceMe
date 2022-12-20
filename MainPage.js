@@ -9,13 +9,15 @@ const MainPage=({navigation})=>{
                 {/* <Image 
                 style = {{width:400,height:250,borderRadius:30}}
                 source={{uri:"https://img.freepik.com/premium-vector/hiring-recruitment-open-vacancy-design-info-label-template-we-are-hiring-join-our-team-announcement_384372-298.jpg?w=2000"}}/> */}
-                <Text style={{flex:0,fontSize:42,textAlign:'left',fontFamily:'Times',color:"#63e0de",fontWeight:'bold'}}>Welcome Back</Text>
-                <Text style={{flex:0,fontSize:42,textAlign:'center',fontFamily:'Times',color:"#63e0de",fontWeight:'bold'}}>Name...</Text>
+                <Text style={{flex:0,fontSize:42,textAlign:'left',fontFamily:'Times',color:"#63e0de",fontWeight:'bold',paddingLeft:15,paddingTop:50}}>Welcome Back</Text>
+                <Text style={{flex:0,fontSize:42,textAlign:'center',fontFamily:'Times',color:"#63e0de",paddingLeft:15,fontWeight:'bold'}}>Name...</Text>
                 <View style={{flex:0,flexDirection:'row',justifyContent:'center'}}>
                 <TouchableOpacity activeOpacity={ 0.75 } style={sty.TopRight} onPress={()=>navigation.push('Product')}>
-                <Image
-            source={require('./assets/Productbased.jpg')}
-            resizeMode='cover' style={{flex:1,  borderTopRightRadius:40,borderBottomLeftRadius:40,width:170}}/>
+                <Image 
+            source={require('./assets/Pro.jpg')}
+            resizeMode='cover' style={{flex:1,  borderTopRightRadius:40,borderBottomLeftRadius:40,width:170}}>
+            {/* <Text>Product Companies</Text> */}
+            </Image>
                 </TouchableOpacity>
                 <TouchableOpacity
                 onPress={()=>navigation.push('Service')} style={sty.TopLeft}>
@@ -63,18 +65,18 @@ const sty=StyleSheet.create({
     },
     TopLeft:{
         justifyContent:'space-evenly',
-        margin:2,
+        margin:5,
         backgroundColor:'#ff9705',
         borderBottomRightRadius:40,
         borderTopLeftRadius:40,
-        height:170,
+        height:230,
         width:170,
 
     },
     TopRight:{
         justifyContent:'space-evenly',
-        margin:2,
-        height:170,
+        margin:5,
+        height:230,
         width:170,
         borderTopRightRadius:40,
         borderBottomLeftRadius:40,
@@ -82,8 +84,8 @@ const sty=StyleSheet.create({
     },
     BottomRight:{
         justifyContent:'space-evenly',
-        margin:2,
-        height:170,
+        margin:5,
+        height:230,
         width:170,
         backgroundColor:'#00ff91',
         borderTopRightRadius:40,
@@ -92,11 +94,11 @@ const sty=StyleSheet.create({
     },
     BottomLeft:{
         justifyContent:'space-evenly',
-        margin:2,
+        margin:5,
         borderBottomRightRadius:40,
         borderTopLeftRadius:40,
         backgroundColor:'#ffdd00',
-        height:170,
+        height:230,
         width:170,
     },
     second:{
