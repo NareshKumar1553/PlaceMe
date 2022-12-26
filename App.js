@@ -26,7 +26,9 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 import AppNavigation from './AppNavigation';
 import Check from './Check';
+import DatabaseRead from './DatabaseRead';
 import Companies from './FirebaseRead';
+import MainPage from './MainPage';
 import Tabs from './Navigation/Tabs';
 import Saran from './Saran/Saran';
 
@@ -64,10 +66,9 @@ const App= () => {
   };
 
   return (
-   <Companies/>
-    // <NavigationContainer>
-    // <AppNavigation/>
-    // </NavigationContainer>
+    <NavigationContainer>
+    <AppNavigation/>
+    </NavigationContainer>
     // <SafeAreaView style={backgroundStyle}>
     //   <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
     //   <ScrollView
