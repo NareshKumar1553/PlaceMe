@@ -24,6 +24,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Details from './lib/Details';
 import ListDis from './lib/ListDis';
 import Login from './lib/Login';
 import MainPage from './lib/MainPage';
