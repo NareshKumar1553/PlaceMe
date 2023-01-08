@@ -28,6 +28,7 @@ import ListDis from './lib/ListDis';
 import Login from './lib/Login';
 import MainPage from './lib/MainPage';
 import NavApp from './lib/NavApp';
+import Testing from './lib/Testing';
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
