@@ -66,7 +66,7 @@ const App=() => {
   };
 
   return (
-    <ListDis/>
+    <NavApp/>
     // <SafeAreaView style={backgroundStyle}>
     //   <StatusBar
     //     barStyle={isDarkMode ? 'light-content' : 'dark-content'}
