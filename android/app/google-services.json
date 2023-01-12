@@ -60,6 +60,22 @@
           }
         },
         {
+          "client_id": "1022670999184-lc5idb6mlh53vb8628dds29pcoe1a32o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freetime",
+            "certificate_hash": "ed0c1634664ea4d85e76303dbdfe36d299a77571"
+          }
+        },
+        {
+          "client_id": "1022670999184-ocmeoo0h45h7jofsh613knahhe9v514u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freetime",
+            "certificate_hash": "9af324de5de4d74f666b81ee179197873c2c3b0f"
+          }
+        },
+        {
           "client_id": "1022670999184-2srbg3l111t8lkoe1ob0rjqf7d0f52nq.apps.googleusercontent.com",
           "client_type": 3
         }
