@@ -60,6 +60,14 @@
           }
         },
         {
+          "client_id": "1022670999184-kdbdcdov5s7akrm47t9v5r76vun8a9eo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freetime",
+            "certificate_hash": "f3514f0744257237146732a268c1e25f1c53a746"
+          }
+        },
+        {
           "client_id": "1022670999184-lc5idb6mlh53vb8628dds29pcoe1a32o.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
