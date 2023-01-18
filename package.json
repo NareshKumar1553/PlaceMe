@@ -1,6 +1,6 @@
 {
   "name": "FreeTime",
-  "version": "0.0.1",
+  "version": "2.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -21,6 +21,7 @@
     "lottie-react-native": "^5.1.4",
     "react": "18.1.0",
     "react-native": "0.70.6",
+    "react-native-animated-splash-screen": "^2.0.5",
     "react-native-elements": "^3.4.3",
     "react-native-gesture-handler": "^2.8.0",
     "react-native-navigation-container": "^1.0.6",
